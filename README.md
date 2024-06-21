@@ -1,2 +1,2 @@
-# FuelLevelSensorFaultDetection
-The model takes fuel sensor level readings and uses median filter to filter it. then it calculates the rate of change of the fuel level to detect if its the normal rate of change considering the car mode and speed. if the fault is detected it goes through a diagnostic system that confirms the fault. the model is compatible with code generation
+# Simulink Automotive Fuel Level Sensor Fault Detection
+This model filters fuel sensor readings to reduce noise using a median filter. It then calculates how fast the fuel level is changing, considering the car's mode and speed, to spot unusual changes. If a problem is found, it checks with a diagnostic system to confirm. It also raises a signal if the fuel level is below 5 liters. This model is compatiable with code generation
